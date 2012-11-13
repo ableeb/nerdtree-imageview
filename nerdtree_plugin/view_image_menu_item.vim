@@ -21,7 +21,7 @@ call NERDTreeAddMenuSeparator({
 
 "add the main menu item
 call NERDTreeAddMenuItem({
-    \ 'text': '(v)iew image',
+    \ 'text': '(v)iew file',
     \ 'shortcut': 'v',
     \ 'isActiveCallback': 'NERDTreeViewImageMenuitemEnabled',
     \ 'callback': 'NERDTreeViewImageMenuItem' })
