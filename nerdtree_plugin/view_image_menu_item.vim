@@ -31,7 +31,7 @@ call NERDTreeAddMenuItem({
 function! NERDTreeViewImageMenuitemEnabled()
     let p = g:NERDTreeFileNode.GetSelected().path
     return !p.isDirectory &&
-         \ p.str() =~ '\c\.\(jpeg\|jpg\|gif\|png\|bmp\|tiff\|pdf\|ico)$'
+         \ p.str() =~ '\c\.\(jpeg\|jpg\|gif\|png\|bmp\|tiff\|pdf\|ico\)$'
 endfunction
 
 "open the file the cursor is on in eog
